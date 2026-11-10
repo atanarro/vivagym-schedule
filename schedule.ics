@@ -1,0 +1,1028 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VivaGym Schedule Scraper//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:VivaGym Paseo de las Delicias - Clases
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VEVENT
+UID:36adb6c838749a818def2ed2395ffbcd0f3a20d5@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T071500
+DTEND;TZID=Europe/Madrid:20240102T080000
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:7fe86f21a47e95537bec780ef0be400935673b45@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T071500
+DTEND;TZID=Europe/Madrid:20240103T080000
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:2886ad7201cd8aba138f28cb64603d3986d1cb81@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240104T071500
+DTEND;TZID=Europe/Madrid:20240104T080000
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:19b7144abb2a970ab2da1b9e02fead3f0f58b519@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240105T071500
+DTEND;TZID=Europe/Madrid:20240105T080000
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:6c5ba9678d8609bf81fc91c4e3f54f1990cd0ba3@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T083000
+DTEND;TZID=Europe/Madrid:20240102T091500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:9731a4442ac91af7e8818bdff3c30bd4235fde48@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T083000
+DTEND;TZID=Europe/Madrid:20240103T091500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:e448794bc198680f7aa41367add2c64fc5704948@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240104T083000
+DTEND;TZID=Europe/Madrid:20240104T091500
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:5caad5c73ef75768d98ecb4d26546ecb7ecb4dc8@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240105T083000
+DTEND;TZID=Europe/Madrid:20240105T091500
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:3a2f4244da55863f2c014155e1ae4fa25c7a95fc@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T093000
+DTEND;TZID=Europe/Madrid:20240102T101500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:689c7b1dd5917fd1ee27e870fadf004fddbe056a@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T093000
+DTEND;TZID=Europe/Madrid:20240103T101500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Fit Moves
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Fit Moves\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:e8123e902bb7693db4ff95ebc5041d6c71b415b4@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240104T093000
+DTEND;TZID=Europe/Madrid:20240104T101500
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:ddf8bf82b143833203e25708bb101a90e2a72462@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240105T093000
+DTEND;TZID=Europe/Madrid:20240105T101500
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:Pilates
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Pilates\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:e1b5fd72d1582a4469be68d80f3dd8a1be2474f5@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T093000
+DTEND;TZID=Europe/Madrid:20240102T101500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Dance
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Dance\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:e7c5552a8e27e6876786180d09b454aa5d251fc6@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T093000
+DTEND;TZID=Europe/Madrid:20240103T101500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:142aeebc6c78dc5ab37bb1a0cd4b18e208762529@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240104T093000
+DTEND;TZID=Europe/Madrid:20240104T101500
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:GAP
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: GAP\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:34ad2bbdb6f5fc3a57bf8d7881b68aec1a2d4c3f@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240105T093000
+DTEND;TZID=Europe/Madrid:20240105T101500
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:7dc752113bf905b0e3ce4559c8b2cdee46a10891@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240101T103000
+DTEND;TZID=Europe/Madrid:20240101T111500
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:6ed5d72f059506913f1cbcb727549fb813da2939@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T103000
+DTEND;TZID=Europe/Madrid:20240102T111500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:V-Power
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: V-Power\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:3cecd7cd09d47205ab8dd5f1e988c37e7aea2473@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T103000
+DTEND;TZID=Europe/Madrid:20240103T111500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Pilates
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Pilates\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:2f7a3c4d5c9b877be71390ed3e391c82db27528f@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240104T103000
+DTEND;TZID=Europe/Madrid:20240104T111500
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:Dance
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Dance\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:3bbf6ffed7830f173b58f150da31cf36f9207164@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240105T103000
+DTEND;TZID=Europe/Madrid:20240105T111500
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:V-Power
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: V-Power\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:4a9f2936194c73deffaec366974b8eae19ebae25@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240106T103000
+DTEND;TZID=Europe/Madrid:20240106T111500
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:a303d15d89895e8c1d759f4cf1561be8df4fa0f9@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240107T103000
+DTEND;TZID=Europe/Madrid:20240107T111500
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:5c4800f67d97e0958295626fc21fb33eb6616c58@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T103000
+DTEND;TZID=Europe/Madrid:20240102T111500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:87def15fd57de4c83b1c0aa400231d76134c0cc1@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T103000
+DTEND;TZID=Europe/Madrid:20240103T111500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:2ed3cc36d451b1567de7fbff0fdf75c9778c6102@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240104T103000
+DTEND;TZID=Europe/Madrid:20240104T111500
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:de61ab18c31722856696f30702ffa18545b11179@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240105T103000
+DTEND;TZID=Europe/Madrid:20240105T111500
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:416596a0700eca17ec5c89341185650a8b1dcf74@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240101T113000
+DTEND;TZID=Europe/Madrid:20240101T121500
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:7abdd0dce1bbb53b56447c174a5262903a4a2723@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T113000
+DTEND;TZID=Europe/Madrid:20240102T121500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Pilates
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Pilates\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:ea11f42caf8c92bf25f9b65d3650557ca8d95d33@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T113000
+DTEND;TZID=Europe/Madrid:20240103T121500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:V-Power
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: V-Power\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:76391d18e04946adaa2486ded160579c3561fdf5@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240104T113000
+DTEND;TZID=Europe/Madrid:20240104T121500
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:f2ddabccbe0b383ff23ea1ab088a69351eb48b16@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240105T113000
+DTEND;TZID=Europe/Madrid:20240105T121500
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:c153f5afd88022670d42eed657c5e1177587b177@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240106T113000
+DTEND;TZID=Europe/Madrid:20240106T121500
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:d34af00a9a613ae9e659d89a2ae3fb2c59ca2fb4@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240107T113000
+DTEND;TZID=Europe/Madrid:20240107T121500
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:61f3ce7e21a728fb4806763ff9c2ae3dd7f9c1da@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T113000
+DTEND;TZID=Europe/Madrid:20240102T121500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:3ae507eadf59e889a6eddf07494a7a8e38698ca9@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T113000
+DTEND;TZID=Europe/Madrid:20240103T121500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:51815cbd9af74aac5ca19ea4839245288106111b@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240106T120000
+DTEND;TZID=Europe/Madrid:20240106T124500
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:Fit Moves
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Fit Moves\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:568d254a5604300d62bc8a5ec0870323593e4154@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240101T123000
+DTEND;TZID=Europe/Madrid:20240101T131500
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:cfac16dcaa90c9aaa7adb1488fb8bbd95ff8334c@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T123000
+DTEND;TZID=Europe/Madrid:20240102T131500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:029cd5dfbea3a99f1cbcbf71c1efc8fe627fced4@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T123000
+DTEND;TZID=Europe/Madrid:20240103T131500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:a5172811d971fb5a96f07a16d76c8a69a0cf0c3d@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240104T123000
+DTEND;TZID=Europe/Madrid:20240104T131500
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:a2feb213b921083abdba765642b172c257d44647@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240105T123000
+DTEND;TZID=Europe/Madrid:20240105T131500
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:9c7600e62e40bc7d0f57a95849153406ad17d511@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240106T123000
+DTEND;TZID=Europe/Madrid:20240106T131500
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:328658ef53d4785f19dd406228eb12bf8c04a5d2@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240107T123000
+DTEND;TZID=Europe/Madrid:20240107T131500
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:be2a4071b039df995ad138ad25fd8d5d07da0d4d@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240106T130000
+DTEND;TZID=Europe/Madrid:20240106T134500
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:GAP
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: GAP\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:5e2951c5bcb70a72fbddfa35c08b59c38f1d7cab@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T133000
+DTEND;TZID=Europe/Madrid:20240102T141500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:d3cf283250618fde07a68e6be11aed25b376d790@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T133000
+DTEND;TZID=Europe/Madrid:20240103T141500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:83ce2c250ad2e1c624308f5f52e0a6ac458f5d6c@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240104T133000
+DTEND;TZID=Europe/Madrid:20240104T141500
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:0db7cbf162c4bf35e00b0cd4547ebc07fa71d26b@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240105T133000
+DTEND;TZID=Europe/Madrid:20240105T141500
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:0b1c981166608a55c36aff2a3cd7f5b2b250b3b0@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240106T133000
+DTEND;TZID=Europe/Madrid:20240106T141500
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:ba2889383a91dc60ba6fbc5bc4983353e7bb0989@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T141500
+DTEND;TZID=Europe/Madrid:20240102T150000
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:V-Power
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: V-Power\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:34af5d56974a61b1c7d8abd1d2100019b162365d@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T141500
+DTEND;TZID=Europe/Madrid:20240103T150000
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Fit Moves
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Fit Moves\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:12d81f5d6991f50da496f2a20ea668a246fcbe9a@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240104T141500
+DTEND;TZID=Europe/Madrid:20240104T150000
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:GAP
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: GAP\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:f9044ece5c231997f1043e1828df7c245396d477@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T143000
+DTEND;TZID=Europe/Madrid:20240102T151500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:d4d710c5dd4d15c5372efc22b04da3d7bd09601e@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T143000
+DTEND;TZID=Europe/Madrid:20240103T151500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:a1abcde7057a0e331eb249a87270474255a1ba94@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240104T143000
+DTEND;TZID=Europe/Madrid:20240104T151500
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:98a9ebbe33279c9163ac22527c4de8c3c4f0b757@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240105T143000
+DTEND;TZID=Europe/Madrid:20240105T151500
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:0cd443b18c5e5c385a719a9306696e2d9b166aee@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240106T143000
+DTEND;TZID=Europe/Madrid:20240106T151500
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:366f15dcc268a7c406e46824d5733ac9a01905b7@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T153000
+DTEND;TZID=Europe/Madrid:20240102T161500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:da02cf6c698f2e2ac5e4b28125e871e43c2b4446@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T153000
+DTEND;TZID=Europe/Madrid:20240103T161500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:eaef26261103421909d90a6bc1eae8a8f9d75ced@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240104T153000
+DTEND;TZID=Europe/Madrid:20240104T161500
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:868f6a9dc9757872dab036dade650c70417b4323@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240105T153000
+DTEND;TZID=Europe/Madrid:20240105T161500
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:304fc8fc7f5c948c740814d36c0030d70ff4f783@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240106T153000
+DTEND;TZID=Europe/Madrid:20240106T161500
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:d86ae46f544acb24f5c40cb2d588d4a4a6083355@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T163000
+DTEND;TZID=Europe/Madrid:20240102T171500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:e39f16ba0ac36547b548b450da07fe4e5f2e8ac0@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T163000
+DTEND;TZID=Europe/Madrid:20240103T171500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:2820dc2ba7b0f4f359e4818883c349c0d16c8efe@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240104T163000
+DTEND;TZID=Europe/Madrid:20240104T171500
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:3539bbbdb5a0357e9c79fa81581f3b602af65c08@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240105T163000
+DTEND;TZID=Europe/Madrid:20240105T171500
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:d39bc269dd459822c9c29cf47a821dfe35a84772@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240106T163000
+DTEND;TZID=Europe/Madrid:20240106T171500
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:3a080168164ba881941245f8376bf5503ccea3fe@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T170000
+DTEND;TZID=Europe/Madrid:20240102T174500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:V-Power
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: V-Power\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:e2eeb4225843267fab4c7ed697c9d5965dd692e4@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T170000
+DTEND;TZID=Europe/Madrid:20240103T174500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:GAP
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: GAP\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:182a03dda9b2a2df59780363cfbc98fb90e377bb@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T173000
+DTEND;TZID=Europe/Madrid:20240102T181500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:688db9638a40ec933dd39707d2416d97dc6920ee@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T173000
+DTEND;TZID=Europe/Madrid:20240103T181500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:e4c93524378c0b050507375ffd299b08dafde488@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240104T173000
+DTEND;TZID=Europe/Madrid:20240104T180000
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:V-Cross
+LOCATION:Sala Fitness\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: V-Cross\nDuración: 30 min\nSala: Sala Fitness\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:5af36fdd742e4e8a98048f4756f478e56d32079d@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240105T173000
+DTEND;TZID=Europe/Madrid:20240105T181500
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:005b4cc0ff5823355f24178b3796b53544d2f85e@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240106T173000
+DTEND;TZID=Europe/Madrid:20240106T181500
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:274c706f238b17a133b74e4c7aa79a6ed9b3a120@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T180000
+DTEND;TZID=Europe/Madrid:20240102T184500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:V-Fight
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: V-Fight\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:6807b15aa86fc974112ad5f20cead3fe22672eca@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T180000
+DTEND;TZID=Europe/Madrid:20240103T184500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Pilates
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Pilates\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:83d5471c5d39b99f0ec3e91be1619c9ccec01fbf@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240104T180000
+DTEND;TZID=Europe/Madrid:20240104T184500
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:668a25b7fb6de838793ec2be032c9363c8f48edc@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240105T180000
+DTEND;TZID=Europe/Madrid:20240105T184500
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:V-Power
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: V-Power\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:eaf71c1dd799e4d2b8afdc22c8afa404bd376d16@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T180000
+DTEND;TZID=Europe/Madrid:20240102T183000
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:V-Cross
+LOCATION:Sala Fitness\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: V-Cross\nDuración: 30 min\nSala: Sala Fitness\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:2b548c4db92fcbb3e6ff5036ecd2f13eadb00196@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T180000
+DTEND;TZID=Europe/Madrid:20240103T183000
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:V-Cross
+LOCATION:Sala Fitness\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: V-Cross\nDuración: 30 min\nSala: Sala Fitness\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:1be1499efe1204c5987c12305bfcf195d6470c76@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T183000
+DTEND;TZID=Europe/Madrid:20240102T191500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:6378d45ad4fc5afd7806e738ae8a739a2624ac5f@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T183000
+DTEND;TZID=Europe/Madrid:20240103T191500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:6f1d7cef40043384de4e3e34b856177a4f59b7ea@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240106T183000
+DTEND;TZID=Europe/Madrid:20240106T191500
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:c0ede2d949bfd7baf3a676f7f47c56b83c0645da@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T190000
+DTEND;TZID=Europe/Madrid:20240102T194500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:GAP
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: GAP\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:e1c8b6e51fe0777859f46e17a026645e88247acd@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T190000
+DTEND;TZID=Europe/Madrid:20240103T194500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:V-Power
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: V-Power\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:57c02cdac1af01612987db5bc536b51aa8fc1c5d@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240104T190000
+DTEND;TZID=Europe/Madrid:20240104T194500
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:V-Fight
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: V-Fight\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:186d38ed6e39382680d2169fd55471fe76c9ad84@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240105T190000
+DTEND;TZID=Europe/Madrid:20240105T194500
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:Cycling
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Cycling\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:dc2d3b77a32b31d36ef7a28ee3894f67fb2aa3de@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T190000
+DTEND;TZID=Europe/Madrid:20240102T200000
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Run Club (Madrid Río)
+LOCATION:Exterior / Madrid Río\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Run Club (Madrid Río)\nDuración: 60 min\nSala: Exterior / Madrid Río\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:dbae07594078bc0675ace3b106fc6cc7830782ed@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240104T190000
+DTEND;TZID=Europe/Madrid:20240104T200000
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:Run Club (Madrid Río)
+LOCATION:Exterior / Madrid Río\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Run Club (Madrid Río)\nDuración: 60 min\nSala: Exterior / Madrid Río\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:8c91ab423d4a3b902cf1c3b4055c3345b77808f1@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T193000
+DTEND;TZID=Europe/Madrid:20240102T201500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:500f47d1f7e4dd8bf6d0cb07c25b4ee275b4f842@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T193000
+DTEND;TZID=Europe/Madrid:20240103T201500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:e831e705e77130b336cee7488d041c2ff0334c95@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240104T193000
+DTEND;TZID=Europe/Madrid:20240104T201500
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:bbe4af393d3f630d9843db79d00e9d48a8b9d7eb@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T200000
+DTEND;TZID=Europe/Madrid:20240102T204500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Fit Moves
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Fit Moves\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:ef0b88441012414b21751764def592697ccd6a76@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T200000
+DTEND;TZID=Europe/Madrid:20240103T204500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Dance
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Dance\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:ca1bad2e6040e7412a17210548e0e864e009285e@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240104T200000
+DTEND;TZID=Europe/Madrid:20240104T204500
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:V-Power
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: V-Power\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:295ebe8fde2c981b6ffefc0e3a8c93af2b4c0266@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240105T200000
+DTEND;TZID=Europe/Madrid:20240105T204500
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:Pilates
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Pilates\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:0222aab2686b5d97d04a6a83088a49b3664d1a8a@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T203000
+DTEND;TZID=Europe/Madrid:20240102T211500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:f139ad6b85e5a7f6b1f13a30fb0e24711199e0b2@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240103T203000
+DTEND;TZID=Europe/Madrid:20240103T211500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:bc41717d7d6470234581849dbffc39fb6ea00715@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240104T203000
+DTEND;TZID=Europe/Madrid:20240104T211500
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:1e937a15ad7477d175507fe83e67a40788952484@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240105T203000
+DTEND;TZID=Europe/Madrid:20240105T211500
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:Virtual Cycling
+LOCATION:Estudio 2\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Virtual Cycling\nDuración: 45 min\nSala: Estudio 2\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:e489cab25ea9a384b4025b747cc30a81da9d2ec3@vivagym-schedule.local
+DTSTAMP:20261110T204826Z
+DTSTART;TZID=Europe/Madrid:20240102T210000
+DTEND;TZID=Europe/Madrid:20240102T214500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:V-Power
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: V-Power\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+END:VCALENDAR

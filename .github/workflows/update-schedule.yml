@@ -1,0 +1,38 @@
+name: Update VivaGym schedule
+
+on:
+  schedule:
+    # 05:00 UTC every Monday = 06:00 Europe/Madrid in winter (CET), 07:00 in summer (CEST, DST not handled by cron)
+    - cron: "0 5 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python3 scraper.py
+
+      - name: Commit updated schedule if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- schedule.ics; then
+            git add schedule.ics
+            git commit -m "Update schedule.ics ($(date -u +%Y-%m-%d))"
+            git push
+          else
+            echo "No changes to schedule.ics"
+          fi
