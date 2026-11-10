@@ -1,4 +1,6 @@
 {
+  "base_url": "https://atanarro.github.io/vivagym-schedule",
+  "note": "Use base_url (GitHub Pages), not raw.githubusercontent.com: the latter serves text/plain and some calendar clients won't parse it as a calendar feed.",
   "all": {
     "file": "schedule.ics",
     "count": 102

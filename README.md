@@ -25,17 +25,24 @@ with per-type class counts): Cycling, Dance, Fit Moves, GAP, Pilates, Run Club
 
 ## Subscribe to a feed
 
-Use the "raw" GitHub URL as a calendar **subscription** (not a one-time
+Use the **GitHub Pages** URL as a calendar **subscription** (not a one-time
 import), so your calendar app re-fetches it automatically:
 
 ```
-webcal://raw.githubusercontent.com/atanarro/vivagym-schedule/master/docs/schedule.ics
-webcal://raw.githubusercontent.com/atanarro/vivagym-schedule/master/docs/schedule-pilates.ics
+webcal://atanarro.github.io/vivagym-schedule/schedule.ics
+webcal://atanarro.github.io/vivagym-schedule/schedule-pilates.ics
 ```
 
 - **Google Calendar**: Settings → Add calendar → From URL → paste the `https://` version of the link.
 - **Apple Calendar**: File → New Calendar Subscription → paste the `webcal://` link.
 - **Outlook**: Add calendar → Subscribe from web → paste the `https://` version.
+
+> ⚠️ Don't use `raw.githubusercontent.com` links. That host serves every
+> file as `text/plain` with `x-content-type-options: nosniff`, which tells
+> clients not to guess the real type — several calendar apps then refuse to
+> parse it as a calendar (you'd see zero events, or a text download instead
+> of a subscription). GitHub Pages serves the same files as `text/calendar`,
+> which works correctly.
 
 Calendar apps typically re-poll a subscribed URL every 12–24 hours, so
 changes may take up to a day to show up even after this repo updates.

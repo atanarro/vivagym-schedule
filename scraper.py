@@ -24,8 +24,11 @@ URL = "https://www.vivagym.com/es-es/gimnasios/madrid/capital/paseo-de-las-delic
 GYM_NAME = "VivaGym Paseo de las Delicias"
 GYM_ADDRESS = "Paseo de las Delicias, Madrid"
 OUT_DIR = "docs"
-GITHUB_REPO = "atanarro/vivagym-schedule"
-RAW_BASE = f"https://raw.githubusercontent.com/{GITHUB_REPO}/master/docs"
+# GitHub Pages (serves docs/ at the repo root) sets the correct
+# "text/calendar" Content-Type; raw.githubusercontent.com serves everything
+# as "text/plain" with x-content-type-options: nosniff, which some calendar
+# clients refuse to parse as a calendar feed at all.
+PAGES_BASE = "https://atanarro.github.io/vivagym-schedule"
 
 # Fixed Monday anchor (2024-01-01). Only the weekday matters: RRULE repeats weekly forever.
 ANCHOR_MONDAY = datetime(2024, 1, 1)
@@ -140,8 +143,8 @@ def build_index_html(feeds):
     rows = "\n".join(
         f'<li><strong>{html.escape(f["name"])}</strong> '
         f'<span class="count">({f["count"]} clases/semana)</span><br>'
-        f'<a href="webcal://{RAW_BASE.split("://", 1)[1]}/{f["file"]}">webcal://</a> · '
-        f'<a href="{RAW_BASE}/{f["file"]}">https://</a></li>'
+        f'<a href="webcal://{PAGES_BASE.split("://", 1)[1]}/{f["file"]}">webcal://</a> · '
+        f'<a href="{PAGES_BASE}/{f["file"]}">https://</a></li>'
         for f in feeds
     )
     return f"""<!doctype html>
@@ -164,8 +167,8 @@ def build_index_html(feeds):
 para que se actualicen solos.</p>
 <h2>Todas las clases</h2>
 <ul>
-<li><a href="webcal://{RAW_BASE.split("://", 1)[1]}/schedule.ics">webcal://</a> ·
-<a href="{RAW_BASE}/schedule.ics">https://</a></li>
+<li><a href="webcal://{PAGES_BASE.split("://", 1)[1]}/schedule.ics">webcal://</a> ·
+<a href="{PAGES_BASE}/schedule.ics">https://</a></li>
 </ul>
 <h2>Por tipo de clase</h2>
 <ul>
@@ -205,6 +208,10 @@ def main():
     with open(os.path.join(OUT_DIR, "index.json"), "w", encoding="utf-8") as f:
         json.dump(
             {
+                "base_url": PAGES_BASE,
+                "note": "Use base_url (GitHub Pages), not raw.githubusercontent.com: "
+                        "the latter serves text/plain and some calendar clients "
+                        "won't parse it as a calendar feed.",
                 "all": {"file": "schedule.ics", "count": len(events)},
                 "by_type": feeds,
             },
