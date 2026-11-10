@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VivaGym Schedule Scraper//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:VivaGym Paseo de las Delicias - Clases - GAP
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VEVENT
+UID:142aeebc6c78dc5ab37bb1a0cd4b18e208762529@vivagym-schedule.local
+DTSTAMP:20261110T205238Z
+DTSTART;TZID=Europe/Madrid:20240104T093000
+DTEND;TZID=Europe/Madrid:20240104T101500
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:GAP
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: GAP\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:be2a4071b039df995ad138ad25fd8d5d07da0d4d@vivagym-schedule.local
+DTSTAMP:20261110T205238Z
+DTSTART;TZID=Europe/Madrid:20240106T130000
+DTEND;TZID=Europe/Madrid:20240106T134500
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:GAP
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: GAP\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:12d81f5d6991f50da496f2a20ea668a246fcbe9a@vivagym-schedule.local
+DTSTAMP:20261110T205238Z
+DTSTART;TZID=Europe/Madrid:20240104T141500
+DTEND;TZID=Europe/Madrid:20240104T150000
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:GAP
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: GAP\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:e2eeb4225843267fab4c7ed697c9d5965dd692e4@vivagym-schedule.local
+DTSTAMP:20261110T205238Z
+DTSTART;TZID=Europe/Madrid:20240103T170000
+DTEND;TZID=Europe/Madrid:20240103T174500
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:GAP
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: GAP\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:c0ede2d949bfd7baf3a676f7f47c56b83c0645da@vivagym-schedule.local
+DTSTAMP:20261110T205238Z
+DTSTART;TZID=Europe/Madrid:20240102T190000
+DTEND;TZID=Europe/Madrid:20240102T194500
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:GAP
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: GAP\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+END:VCALENDAR

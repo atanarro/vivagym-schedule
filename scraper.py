@@ -1,8 +1,20 @@
 #!/usr/bin/env python3
-"""Scrape the VivaGym Paseo de las Delicias class timetable and emit an .ics file."""
+"""Scrape the VivaGym Paseo de las Delicias class timetable and emit .ics feeds.
+
+Writes, under docs/ (served via GitHub Pages / raw.githubusercontent.com):
+  - schedule.ics              all classes
+  - schedule-<type-slug>.ics  one feed per class type (Pilates, Cycling, ...)
+  - index.json                machine-readable list of available feeds
+  - index.html                human-browsable page linking to each feed
+"""
 import hashlib
+import html
+import json
+import os
 import re
 import sys
+import unicodedata
+from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 
 import requests
@@ -11,7 +23,9 @@ from bs4 import BeautifulSoup
 URL = "https://www.vivagym.com/es-es/gimnasios/madrid/capital/paseo-de-las-delicias/activity-calendar/"
 GYM_NAME = "VivaGym Paseo de las Delicias"
 GYM_ADDRESS = "Paseo de las Delicias, Madrid"
-OUT_PATH = "schedule.ics"
+OUT_DIR = "docs"
+GITHUB_REPO = "atanarro/vivagym-schedule"
+RAW_BASE = f"https://raw.githubusercontent.com/{GITHUB_REPO}/master/docs"
 
 # Fixed Monday anchor (2024-01-01). Only the weekday matters: RRULE repeats weekly forever.
 ANCHOR_MONDAY = datetime(2024, 1, 1)
@@ -60,6 +74,12 @@ def fetch_events():
     return events
 
 
+def slugify(name):
+    normalized = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode("ascii")
+    slug = re.sub(r"[^a-zA-Z0-9]+", "-", normalized).strip("-").lower()
+    return slug
+
+
 def ics_escape(s):
     return s.replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,")
 
@@ -69,7 +89,7 @@ def stable_uid(day, time_s, name, code):
     return hashlib.sha1(key).hexdigest() + "@vivagym-schedule.local"
 
 
-def build_ics(events):
+def build_ics(events, calname_suffix=""):
     now_stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     lines = [
         "BEGIN:VCALENDAR",
@@ -77,7 +97,7 @@ def build_ics(events):
         "PRODID:-//VivaGym Schedule Scraper//ES",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
-        f"X-WR-CALNAME:{GYM_NAME} - Clases",
+        f"X-WR-CALNAME:{GYM_NAME} - Clases{calname_suffix}",
         "X-WR-TIMEZONE:Europe/Madrid",
     ]
 
@@ -116,15 +136,87 @@ def build_ics(events):
     return "\r\n".join(lines) + "\r\n"
 
 
+def build_index_html(feeds):
+    rows = "\n".join(
+        f'<li><strong>{html.escape(f["name"])}</strong> '
+        f'<span class="count">({f["count"]} clases/semana)</span><br>'
+        f'<a href="webcal://{RAW_BASE.split("://", 1)[1]}/{f["file"]}">webcal://</a> · '
+        f'<a href="{RAW_BASE}/{f["file"]}">https://</a></li>'
+        for f in feeds
+    )
+    return f"""<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VivaGym Paseo de las Delicias - Horarios</title>
+<style>
+  body {{ font-family: system-ui, sans-serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }}
+  li {{ margin-bottom: 1rem; }}
+  .count {{ color: #666; font-size: 0.9em; }}
+  code {{ background: #f0f0f0; padding: 0.1em 0.3em; border-radius: 3px; }}
+</style>
+</head>
+<body>
+<h1>VivaGym Paseo de las Delicias - Horarios</h1>
+<p>Feeds de calendario (.ics) generados semanalmente a partir del
+<a href="{URL}">horario oficial</a>. Suscríbete (no los importes una sola vez)
+para que se actualicen solos.</p>
+<h2>Todas las clases</h2>
+<ul>
+<li><a href="webcal://{RAW_BASE.split("://", 1)[1]}/schedule.ics">webcal://</a> ·
+<a href="{RAW_BASE}/schedule.ics">https://</a></li>
+</ul>
+<h2>Por tipo de clase</h2>
+<ul>
+{rows}
+</ul>
+</body>
+</html>
+"""
+
+
 def main():
     events = fetch_events()
     if not events:
-        print("No events parsed - aborting without touching the output file", file=sys.stderr)
+        print("No events parsed - aborting without touching output files", file=sys.stderr)
         sys.exit(1)
-    ics_content = build_ics(events)
-    with open(OUT_PATH, "w", encoding="utf-8") as f:
-        f.write(ics_content)
-    print(f"Wrote {OUT_PATH} with {len(events)} recurring events")
+
+    os.makedirs(OUT_DIR, exist_ok=True)
+
+    # Full feed
+    with open(os.path.join(OUT_DIR, "schedule.ics"), "w", encoding="utf-8") as f:
+        f.write(build_ics(events))
+
+    # Per-type feeds
+    by_type = defaultdict(list)
+    for ev in events:
+        by_type[ev[2]].append(ev)
+
+    feeds = []
+    for name in sorted(by_type):
+        type_events = by_type[name]
+        slug = slugify(name)
+        filename = f"schedule-{slug}.ics"
+        with open(os.path.join(OUT_DIR, filename), "w", encoding="utf-8") as f:
+            f.write(build_ics(type_events, calname_suffix=f" - {name}"))
+        feeds.append({"name": name, "slug": slug, "file": filename, "count": len(type_events)})
+
+    with open(os.path.join(OUT_DIR, "index.json"), "w", encoding="utf-8") as f:
+        json.dump(
+            {
+                "all": {"file": "schedule.ics", "count": len(events)},
+                "by_type": feeds,
+            },
+            f,
+            ensure_ascii=False,
+            indent=2,
+        )
+
+    with open(os.path.join(OUT_DIR, "index.html"), "w", encoding="utf-8") as f:
+        f.write(build_index_html(feeds))
+
+    print(f"Wrote {len(feeds) + 3} files to {OUT_DIR}/ ({len(events)} total events, {len(feeds)} class types)")
 
 
 if __name__ == "__main__":

@@ -1,19 +1,39 @@
 # vivagym-schedule
 
-Weekly-recurring calendar feed of the class timetable for VivaGym Paseo de las
-Delicias (Madrid), scraped from the
-[official activity calendar page](https://www.vivagym.com/es-es/gimnasios/madrid/capital/paseo-de-las-delicias/activity-calendar/).
+Weekly-recurring calendar feeds of the class timetable for VivaGym Paseo de
+las Delicias (Madrid), scraped from the
+[official activity calendar page](https://www.vivagym.com/es-es/gimnasios/madrid/capital/paseo-de-las-delicias/activity-calendar/),
+with a feed per class type so you can subscribe only to what you care about.
 
-## Subscribe to the calendar
+**Browse all feeds:** https://atanarro.github.io/vivagym-schedule/
 
-Use the "raw" GitHub URL for `schedule.ics` as a calendar subscription
-(not a one-time import), so your calendar app re-fetches it automatically:
+## Feeds
+
+All feeds live under `docs/` and are listed machine-readably in
+[`docs/index.json`](docs/index.json). There's no server, so "filtering" is
+static: pick the pre-generated file for the class type you want, or combine
+several by subscribing your calendar app to more than one feed at once.
+
+| Feed | URL |
+|---|---|
+| All classes | `docs/schedule.ics` |
+| One class type | `docs/schedule-<slug>.ics`, e.g. `schedule-pilates.ics`, `schedule-virtual-cycling.ics` |
+
+Current class types (see `docs/index.json` for the live, authoritative list
+with per-type class counts): Cycling, Dance, Fit Moves, GAP, Pilates, Run Club
+(Madrid Río), V-Cross, V-Fight, V-Power, Virtual Cycling.
+
+## Subscribe to a feed
+
+Use the "raw" GitHub URL as a calendar **subscription** (not a one-time
+import), so your calendar app re-fetches it automatically:
 
 ```
-webcal://raw.githubusercontent.com/atanarro/vivagym-schedule/master/schedule.ics
+webcal://raw.githubusercontent.com/atanarro/vivagym-schedule/master/docs/schedule.ics
+webcal://raw.githubusercontent.com/atanarro/vivagym-schedule/master/docs/schedule-pilates.ics
 ```
 
-- **Google Calendar**: Settings → Add calendar → From URL → paste the `https://` version of the link above.
+- **Google Calendar**: Settings → Add calendar → From URL → paste the `https://` version of the link.
 - **Apple Calendar**: File → New Calendar Subscription → paste the `webcal://` link.
 - **Outlook**: Add calendar → Subscribe from web → paste the `https://` version.
 
@@ -24,9 +44,9 @@ changes may take up to a day to show up even after this repo updates.
 
 A [GitHub Action](.github/workflows/update-schedule.yml) runs every Monday
 at 05:00 UTC (06:00 Madrid time in winter / 07:00 in summer — cron doesn't
-follow DST), re-scrapes the page, regenerates `schedule.ics`, and commits it
-if anything changed. You can also trigger it manually from the Actions tab
-("Run workflow").
+follow DST), re-scrapes the page, regenerates everything under `docs/`, and
+commits if anything changed. You can also trigger it manually from the
+Actions tab ("Run workflow").
 
 Each class keeps a stable UID across runs (hashed from day + time + class
 name + room code), so re-scraping updates existing events instead of
@@ -41,6 +61,10 @@ python3 scraper.py
 
 ## Caveats
 
+- This is static pre-filtering, not a real API: there's no way to combine
+  filters ad hoc (e.g. "Pilates OR Dance on Tuesdays") beyond subscribing to
+  multiple feeds. A dynamic query API (`?type=...&day=...`) would need an
+  actual server (e.g. a Cloudflare Worker) — ask if you want that instead.
 - The schedule is anchored to a fixed Monday (2024-01-01) purely so the
   weekday lines up; `RRULE:FREQ=WEEKLY` repeats it forever.
 - If VivaGym changes the page's HTML structure, the scraper will fail loudly

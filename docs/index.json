@@ -1,0 +1,68 @@
+{
+  "all": {
+    "file": "schedule.ics",
+    "count": 102
+  },
+  "by_type": [
+    {
+      "name": "Cycling",
+      "slug": "cycling",
+      "file": "schedule-cycling.ics",
+      "count": 6
+    },
+    {
+      "name": "Dance",
+      "slug": "dance",
+      "file": "schedule-dance.ics",
+      "count": 3
+    },
+    {
+      "name": "Fit Moves",
+      "slug": "fit-moves",
+      "file": "schedule-fit-moves.ics",
+      "count": 4
+    },
+    {
+      "name": "GAP",
+      "slug": "gap",
+      "file": "schedule-gap.ics",
+      "count": 5
+    },
+    {
+      "name": "Pilates",
+      "slug": "pilates",
+      "file": "schedule-pilates.ics",
+      "count": 5
+    },
+    {
+      "name": "Run Club (Madrid Río)",
+      "slug": "run-club-madrid-rio",
+      "file": "schedule-run-club-madrid-rio.ics",
+      "count": 2
+    },
+    {
+      "name": "V-Cross",
+      "slug": "v-cross",
+      "file": "schedule-v-cross.ics",
+      "count": 3
+    },
+    {
+      "name": "V-Fight",
+      "slug": "v-fight",
+      "file": "schedule-v-fight.ics",
+      "count": 2
+    },
+    {
+      "name": "V-Power",
+      "slug": "v-power",
+      "file": "schedule-v-power.ics",
+      "count": 9
+    },
+    {
+      "name": "Virtual Cycling",
+      "slug": "virtual-cycling",
+      "file": "schedule-virtual-cycling.ics",
+      "count": 63
+    }
+  ]
+}
