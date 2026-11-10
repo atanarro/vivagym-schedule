@@ -10,7 +10,7 @@ Use the "raw" GitHub URL for `schedule.ics` as a calendar subscription
 (not a one-time import), so your calendar app re-fetches it automatically:
 
 ```
-webcal://raw.githubusercontent.com/<your-github-username>/vivagym-schedule/main/schedule.ics
+webcal://raw.githubusercontent.com/atanarro/vivagym-schedule/master/schedule.ics
 ```
 
 - **Google Calendar**: Settings → Add calendar → From URL → paste the `https://` version of the link above.
