@@ -5,34 +5,55 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:VivaGym Paseo de las Delicias - Clases - V-Cross
 X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:e4c93524378c0b050507375ffd299b08dafde488@vivagym-schedule.local
-DTSTAMP:20261110T210736Z
+DTSTAMP:20261110T211236Z
 DTSTART;TZID=Europe/Madrid:20240104T173000
 DTEND;TZID=Europe/Madrid:20240104T180000
 RRULE:FREQ=WEEKLY;BYDAY=TH
 SUMMARY:V-Cross
 LOCATION:Sala Fitness\, VivaGym Paseo de las Delicias
-DESCRIPTION:Clase dirigida: V-Cross\nDuración: 30 min\nSala: Sala Fitness\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+DESCRIPTION:Clase dirigida: V-Cross\nDuración: 30 min\nSala: Sala Fitness\
+ nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
 END:VEVENT
 BEGIN:VEVENT
 UID:eaf71c1dd799e4d2b8afdc22c8afa404bd376d16@vivagym-schedule.local
-DTSTAMP:20261110T210736Z
+DTSTAMP:20261110T211236Z
 DTSTART;TZID=Europe/Madrid:20240102T180000
 DTEND;TZID=Europe/Madrid:20240102T183000
 RRULE:FREQ=WEEKLY;BYDAY=TU
 SUMMARY:V-Cross
 LOCATION:Sala Fitness\, VivaGym Paseo de las Delicias
-DESCRIPTION:Clase dirigida: V-Cross\nDuración: 30 min\nSala: Sala Fitness\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+DESCRIPTION:Clase dirigida: V-Cross\nDuración: 30 min\nSala: Sala Fitness\
+ nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
 END:VEVENT
 BEGIN:VEVENT
 UID:2b548c4db92fcbb3e6ff5036ecd2f13eadb00196@vivagym-schedule.local
-DTSTAMP:20261110T210736Z
+DTSTAMP:20261110T211236Z
 DTSTART;TZID=Europe/Madrid:20240103T180000
 DTEND;TZID=Europe/Madrid:20240103T183000
 RRULE:FREQ=WEEKLY;BYDAY=WE
 SUMMARY:V-Cross
 LOCATION:Sala Fitness\, VivaGym Paseo de las Delicias
-DESCRIPTION:Clase dirigida: V-Cross\nDuración: 30 min\nSala: Sala Fitness\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+DESCRIPTION:Clase dirigida: V-Cross\nDuración: 30 min\nSala: Sala Fitness\
+ nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
 END:VEVENT
 END:VCALENDAR

@@ -5,34 +5,55 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:VivaGym Paseo de las Delicias - Clases - Dance
 X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:e1b5fd72d1582a4469be68d80f3dd8a1be2474f5@vivagym-schedule.local
-DTSTAMP:20261110T210736Z
+DTSTAMP:20261110T211236Z
 DTSTART;TZID=Europe/Madrid:20240102T093000
 DTEND;TZID=Europe/Madrid:20240102T101500
 RRULE:FREQ=WEEKLY;BYDAY=TU
 SUMMARY:Dance
 LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
-DESCRIPTION:Clase dirigida: Dance\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+DESCRIPTION:Clase dirigida: Dance\nDuración: 45 min\nSala: Estudio 1\nViva
+ Gym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
 END:VEVENT
 BEGIN:VEVENT
 UID:2f7a3c4d5c9b877be71390ed3e391c82db27528f@vivagym-schedule.local
-DTSTAMP:20261110T210736Z
+DTSTAMP:20261110T211236Z
 DTSTART;TZID=Europe/Madrid:20240104T103000
 DTEND;TZID=Europe/Madrid:20240104T111500
 RRULE:FREQ=WEEKLY;BYDAY=TH
 SUMMARY:Dance
 LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
-DESCRIPTION:Clase dirigida: Dance\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+DESCRIPTION:Clase dirigida: Dance\nDuración: 45 min\nSala: Estudio 1\nViva
+ Gym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
 END:VEVENT
 BEGIN:VEVENT
 UID:ef0b88441012414b21751764def592697ccd6a76@vivagym-schedule.local
-DTSTAMP:20261110T210736Z
+DTSTAMP:20261110T211236Z
 DTSTART;TZID=Europe/Madrid:20240103T200000
 DTEND;TZID=Europe/Madrid:20240103T204500
 RRULE:FREQ=WEEKLY;BYDAY=WE
 SUMMARY:Dance
 LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
-DESCRIPTION:Clase dirigida: Dance\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+DESCRIPTION:Clase dirigida: Dance\nDuración: 45 min\nSala: Estudio 1\nViva
+ Gym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
 END:VEVENT
 END:VCALENDAR

@@ -92,6 +92,47 @@ def stable_uid(day, time_s, name, code):
     return hashlib.sha1(key).hexdigest() + "@vivagym-schedule.local"
 
 
+VTIMEZONE_MADRID = [
+    "BEGIN:VTIMEZONE",
+    "TZID:Europe/Madrid",
+    "X-LIC-LOCATION:Europe/Madrid",
+    "BEGIN:DAYLIGHT",
+    "TZOFFSETFROM:+0100",
+    "TZOFFSETTO:+0200",
+    "TZNAME:CEST",
+    "DTSTART:19700329T020000",
+    "RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU",
+    "END:DAYLIGHT",
+    "BEGIN:STANDARD",
+    "TZOFFSETFROM:+0200",
+    "TZOFFSETTO:+0100",
+    "TZNAME:CET",
+    "DTSTART:19701025T030000",
+    "RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU",
+    "END:STANDARD",
+    "END:VTIMEZONE",
+]
+
+
+def fold_line(line):
+    """RFC 5545 line folding: split at 75 octets, continuation lines start with a space."""
+    data = line.encode("utf-8")
+    if len(data) <= 75:
+        return [line]
+    chunks = []
+    start = 0
+    limit = 75
+    while start < len(data):
+        end = min(start + limit, len(data))
+        # don't split a multi-byte UTF-8 sequence
+        while end < len(data) and (data[end] & 0xC0) == 0x80:
+            end -= 1
+        chunks.append(data[start:end].decode("utf-8"))
+        start = end
+        limit = 74  # continuation lines lose 1 octet to the leading space
+    return [chunks[0]] + [" " + c for c in chunks[1:]]
+
+
 def build_ics(events, calname_suffix=""):
     now_stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     lines = [
@@ -102,6 +143,7 @@ def build_ics(events, calname_suffix=""):
         "METHOD:PUBLISH",
         f"X-WR-CALNAME:{GYM_NAME} - Clases{calname_suffix}",
         "X-WR-TIMEZONE:Europe/Madrid",
+        *VTIMEZONE_MADRID,
     ]
 
     for time_s, day, name, code, duration in events:
@@ -136,7 +178,8 @@ def build_ics(events, calname_suffix=""):
         ]
 
     lines.append("END:VCALENDAR")
-    return "\r\n".join(lines) + "\r\n"
+    folded = [folded_line for line in lines for folded_line in fold_line(line)]
+    return "\r\n".join(folded) + "\r\n"
 
 
 def build_index_html(feeds):

@@ -3,26 +3,49 @@ VERSION:2.0
 PRODID:-//VivaGym Schedule Scraper//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:VivaGym Paseo de las Delicias - Clases - Run Club (Madrid Río)
+X-WR-CALNAME:VivaGym Paseo de las Delicias - Clases - Run Club (Madrid Río
+ )
 X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:dc2d3b77a32b31d36ef7a28ee3894f67fb2aa3de@vivagym-schedule.local
-DTSTAMP:20261110T210736Z
+DTSTAMP:20261110T211236Z
 DTSTART;TZID=Europe/Madrid:20240102T190000
 DTEND;TZID=Europe/Madrid:20240102T200000
 RRULE:FREQ=WEEKLY;BYDAY=TU
 SUMMARY:Run Club (Madrid Río)
 LOCATION:Exterior / Madrid Río\, VivaGym Paseo de las Delicias
-DESCRIPTION:Clase dirigida: Run Club (Madrid Río)\nDuración: 60 min\nSala: Exterior / Madrid Río\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+DESCRIPTION:Clase dirigida: Run Club (Madrid Río)\nDuración: 60 min\nSala
+ : Exterior / Madrid Río\nVivaGym Paseo de las Delicias\, Paseo de las Del
+ icias\, Madrid
 END:VEVENT
 BEGIN:VEVENT
 UID:dbae07594078bc0675ace3b106fc6cc7830782ed@vivagym-schedule.local
-DTSTAMP:20261110T210736Z
+DTSTAMP:20261110T211236Z
 DTSTART;TZID=Europe/Madrid:20240104T190000
 DTEND;TZID=Europe/Madrid:20240104T200000
 RRULE:FREQ=WEEKLY;BYDAY=TH
 SUMMARY:Run Club (Madrid Río)
 LOCATION:Exterior / Madrid Río\, VivaGym Paseo de las Delicias
-DESCRIPTION:Clase dirigida: Run Club (Madrid Río)\nDuración: 60 min\nSala: Exterior / Madrid Río\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+DESCRIPTION:Clase dirigida: Run Club (Madrid Río)\nDuración: 60 min\nSala
+ : Exterior / Madrid Río\nVivaGym Paseo de las Delicias\, Paseo de las Del
+ icias\, Madrid
 END:VEVENT
 END:VCALENDAR

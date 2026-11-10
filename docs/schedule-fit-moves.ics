@@ -5,44 +5,66 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:VivaGym Paseo de las Delicias - Clases - Fit Moves
 X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:689c7b1dd5917fd1ee27e870fadf004fddbe056a@vivagym-schedule.local
-DTSTAMP:20261110T210736Z
+DTSTAMP:20261110T211236Z
 DTSTART;TZID=Europe/Madrid:20240103T093000
 DTEND;TZID=Europe/Madrid:20240103T101500
 RRULE:FREQ=WEEKLY;BYDAY=WE
 SUMMARY:Fit Moves
 LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
-DESCRIPTION:Clase dirigida: Fit Moves\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+DESCRIPTION:Clase dirigida: Fit Moves\nDuración: 45 min\nSala: Estudio 1\n
+ VivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
 END:VEVENT
 BEGIN:VEVENT
 UID:51815cbd9af74aac5ca19ea4839245288106111b@vivagym-schedule.local
-DTSTAMP:20261110T210736Z
+DTSTAMP:20261110T211236Z
 DTSTART;TZID=Europe/Madrid:20240106T120000
 DTEND;TZID=Europe/Madrid:20240106T124500
 RRULE:FREQ=WEEKLY;BYDAY=SA
 SUMMARY:Fit Moves
 LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
-DESCRIPTION:Clase dirigida: Fit Moves\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+DESCRIPTION:Clase dirigida: Fit Moves\nDuración: 45 min\nSala: Estudio 1\n
+ VivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
 END:VEVENT
 BEGIN:VEVENT
 UID:34af5d56974a61b1c7d8abd1d2100019b162365d@vivagym-schedule.local
-DTSTAMP:20261110T210736Z
+DTSTAMP:20261110T211236Z
 DTSTART;TZID=Europe/Madrid:20240103T141500
 DTEND;TZID=Europe/Madrid:20240103T150000
 RRULE:FREQ=WEEKLY;BYDAY=WE
 SUMMARY:Fit Moves
 LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
-DESCRIPTION:Clase dirigida: Fit Moves\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+DESCRIPTION:Clase dirigida: Fit Moves\nDuración: 45 min\nSala: Estudio 1\n
+ VivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
 END:VEVENT
 BEGIN:VEVENT
 UID:bbe4af393d3f630d9843db79d00e9d48a8b9d7eb@vivagym-schedule.local
-DTSTAMP:20261110T210736Z
+DTSTAMP:20261110T211236Z
 DTSTART;TZID=Europe/Madrid:20240102T200000
 DTEND;TZID=Europe/Madrid:20240102T204500
 RRULE:FREQ=WEEKLY;BYDAY=TU
 SUMMARY:Fit Moves
 LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
-DESCRIPTION:Clase dirigida: Fit Moves\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+DESCRIPTION:Clase dirigida: Fit Moves\nDuración: 45 min\nSala: Estudio 1\n
+ VivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
 END:VEVENT
 END:VCALENDAR

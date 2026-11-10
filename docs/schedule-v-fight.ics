@@ -5,24 +5,44 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:VivaGym Paseo de las Delicias - Clases - V-Fight
 X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:274c706f238b17a133b74e4c7aa79a6ed9b3a120@vivagym-schedule.local
-DTSTAMP:20261110T210736Z
+DTSTAMP:20261110T211236Z
 DTSTART;TZID=Europe/Madrid:20240102T180000
 DTEND;TZID=Europe/Madrid:20240102T184500
 RRULE:FREQ=WEEKLY;BYDAY=TU
 SUMMARY:V-Fight
 LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
-DESCRIPTION:Clase dirigida: V-Fight\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+DESCRIPTION:Clase dirigida: V-Fight\nDuración: 45 min\nSala: Estudio 1\nVi
+ vaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
 END:VEVENT
 BEGIN:VEVENT
 UID:57c02cdac1af01612987db5bc536b51aa8fc1c5d@vivagym-schedule.local
-DTSTAMP:20261110T210736Z
+DTSTAMP:20261110T211236Z
 DTSTART;TZID=Europe/Madrid:20240104T190000
 DTEND;TZID=Europe/Madrid:20240104T194500
 RRULE:FREQ=WEEKLY;BYDAY=TH
 SUMMARY:V-Fight
 LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
-DESCRIPTION:Clase dirigida: V-Fight\nDuración: 45 min\nSala: Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+DESCRIPTION:Clase dirigida: V-Fight\nDuración: 45 min\nSala: Estudio 1\nVi
+ vaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
 END:VEVENT
 END:VCALENDAR
