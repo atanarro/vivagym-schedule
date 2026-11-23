@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VivaGym Schedule Scraper//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:VivaGym Paseo de las Delicias - Clases - Presentación V-Power
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+X-LIC-LOCATION:Europe/Madrid
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:28690be39fae225a815c97af6d2bbc85bb858bbd@vivagym-schedule.local
+DTSTAMP:20261123T154502Z
+DTSTART;TZID=Europe/Madrid:20240101T093000
+DTEND;TZID=Europe/Madrid:20240101T101500
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:Presentación V-Power
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Presentación V-Power\nDuración: 45 min\nSala:
+  Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:e9a946136f69e3b9263b0714444fecaef03902a0@vivagym-schedule.local
+DTSTAMP:20261123T154502Z
+DTSTART;TZID=Europe/Madrid:20240102T141500
+DTEND;TZID=Europe/Madrid:20240102T150000
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Presentación V-Power
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Presentación V-Power\nDuración: 45 min\nSala:
+  Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:69920aff93e110e72968f4672abea48be0c2f371@vivagym-schedule.local
+DTSTAMP:20261123T154502Z
+DTSTART;TZID=Europe/Madrid:20240101T180000
+DTEND;TZID=Europe/Madrid:20240101T184500
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:Presentación V-Power
+LOCATION:Estudio 1\, VivaGym Paseo de las Delicias
+DESCRIPTION:Clase dirigida: Presentación V-Power\nDuración: 45 min\nSala:
+  Estudio 1\nVivaGym Paseo de las Delicias\, Paseo de las Delicias\, Madrid
+END:VEVENT
+END:VCALENDAR
